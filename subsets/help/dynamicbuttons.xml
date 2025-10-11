@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./default.xml</include>
+  <customView name="system,basic,detailed,gamecarousel,grid,Carousel,Tiles,Boxes,Icons,Content">
+    <helpsystem name="Nintendo_SNES_Controller">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/button_b.svg</iconA>
+      <iconB>:/help/button_a.svg</iconB>
+      <iconX>:/help/button_x.svg</iconX>
+      <iconY>:/help/button_y.svg</iconY>
+    </helpsystem>
+    <helpsystem name="Nintendo_NES_Controller_(L)">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/button_b.svg</iconA>
+      <iconB>:/help/button_a.svg</iconB>
+      <iconX>:/help/button_x.svg</iconX>
+      <iconY>:/help/button_y.svg</iconY>
+    </helpsystem>
+    <helpsystem name="Nintendo_NES_Controller_(R)">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/button_b.svg</iconA>
+      <iconB>:/help/button_a.svg</iconB>
+      <iconX>:/help/button_x.svg</iconX>
+      <iconY>:/help/button_y.svg</iconY>
+    </helpsystem>
+    <helpsystem name="Nintendo_N64_Controller">
+      <iconUpDownLeftRight>:/help/N64/ButtonIcon-N64-D-Pad.svg</iconUpDownLeftRight>
+      <iconA>:/help/N64/ButtonIcon-N64-B.svg</iconA>
+      <iconB>:/help/N64/ButtonIcon-N64-A.svg</iconB>
+      <iconX>:/help/N64/ButtonIcon-N64-C-Up.svg</iconX>
+      <iconY>:/help/N64/ButtonIcon-N64-C-Left.svg</iconY>
+      <iconL>:/help/N64/ButtonIcon-N64-L.svg</iconL>
+      <iconR>:/help/N64/ButtonIcon-N64-R.svg</iconR>
+      <iconStart>:/help/N64/ButtonIcon-N64-Start.svg</iconStart>
+      <iconSelect>:/help/N64/ButtonIcon-N64-Z.svg</iconSelect>
+    </helpsystem>
+    <helpsystem name="Nintendo_SEGA_Genesis_Controller">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/Genesis/button_b.svg</iconA>
+      <iconB>:/help/Genesis/button_a.svg</iconB>
+      <iconX>:/help/Genesis/button_y.svg</iconX>
+      <iconY>:/help/Genesis/button_x.svg</iconY>
+      <iconL>:/help/Genesis/button_z.svg</iconL>
+      <iconR>:/help/Genesis/button_c.svg</iconR>
+      <iconSelect>:/help/Genesis/switch_button_sync.svg</iconSelect>
+    </helpsystem>
+    <helpsystem name="PS4_Controller">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/button_circle.svg</iconA>
+      <iconB>:/help/button_cross.svg</iconB>
+      <iconX>:/help/button_triangle.svg</iconX>
+      <iconY>:/help/button_square.svg</iconY>
+      <iconL>:/help/PS4/playstation_trigger_l1_alternative.svg</iconL>
+      <iconR>:/help/PS4/playstation_trigger_r1_alternative.svg</iconR>
+      <iconSelect>:/help/PS4/button-share-ps.svg</iconSelect>
+      <iconStart>:/help/PS4/button-options-ps.svg</iconStart>
+      <iconUpDown>:/helpPS4/playstation_dpad_vertical_outline.svg</iconUpDown>
+      <iconLeftRight>:/help/PS4/playstation_dpad_horizontal_outline.svg</iconLeftRight>
+      <iconUpDownLeftRight>:/help/PS4/playstation_dpad_none.svg</iconUpDownLeftRight>
+    </helpsystem>
+    <helpsystem name="Keyboard">
+      <iconColor>${baseColor}</iconColor>
+      <iconA>:/help/Keyboard/keyboard_z.svg</iconA>
+      <iconB>:/help/Keyboard/keyboard_x.svg</iconB>
+      <iconX>:/help/Keyboard/keyboard_q.svg</iconX>
+      <iconY>:/help/Keyboard/keyboard_s.svg</iconY>
+      <iconL>:/help/Keyboard/keyboard_page_down.svg</iconL>
+      <iconR>:/help/Keyboard/keyboard_page_up.svg</iconR>
+      <iconSelect>:/help/Keyboard/keyboard_backspace.svg</iconSelect>
+      <iconStart>:/help/Keyboard/keyboard_return.svg</iconStart>
+      <iconUpDown>:/help/Keyboard/keyboard_arrows_vertical_outline.svg</iconUpDown>
+      <iconLeftRight>:/help/Keyboard/keyboard_arrows_horizontal_outline.svg</iconLeftRight>
+      <iconUpDownLeftRight>:/help/Keyboard/keyboard_arrows_none.svg</iconUpDownLeftRight>
+    </helpsystem>
+  </customView>
+</theme>

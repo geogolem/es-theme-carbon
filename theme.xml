@@ -42,6 +42,7 @@ languages and missing systems (batocera v36): by maioni
     <systemBackgroundName>System background</systemBackgroundName>
     <optimizesmallscreensSubsetName>Optimize for small screens</optimizesmallscreensSubsetName>
     <helpSubsetName>Help icons</helpSubsetName>
+    <dynamicHelpSubsetName>Dynamic Help icons</dynamicHelpSubsetName>
     <systemViewName>System view</systemViewName>
     <systemview.darkened>darkened</systemview.darkened>
     <systemview.horizontal>horizontal</systemview.horizontal>
@@ -181,6 +182,13 @@ languages and missing systems (batocera v36): by maioni
     <include name="6buttons" displayName="${buttons6}">./subsets/help/6buttons.xml</include>
     <include name="8buttons" displayName="${buttons8}">./subsets/help/8buttons.xml</include>    
   </subset>
+
+  <!-- Subset option for dynamichelpsystem effects -->
+  <subset name="dynamichelpsystem" displayName="${dynamicHelpSubsetName}">
+    <include name="no" displayName="${no}"/>
+    <include name="yes" displayName="${yes}">./subsets/help/dynamicbuttons.xml</include>
+  </subset>
+
   <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
     <include name="None" displayName="${none}"/>
